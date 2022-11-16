@@ -1,4 +1,5 @@
 class Constructors {
+    //Local Variables
     String fname;
     String lname;
    
@@ -10,7 +11,9 @@ class Constructors {
 
 
     public static void main(String[] args) {
+        //Inside Constructors(parameters) we have passed string.
         Constructors r = new Constructors("Dhiraj","Oli");
+        //Printing Value
         System.out.println(r.fname + " " + r.lname);
     }
 }
